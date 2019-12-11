@@ -5,6 +5,7 @@
         "NodePort": 10039,
         "WsPort": 10033,
         "UriPrefix": [ "http://13.230.62.42:10030" ],
+        "ApiPrefix": "http://13.230.62.42:3001",
         "SslCert": "",
         "SslCertPassword": "",
         "Urls": {
