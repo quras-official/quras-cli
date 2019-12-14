@@ -1,11 +1,11 @@
-﻿using Pure.Core;
-using Pure.IO.Json;
-using Pure.SmartContract;
-using Pure.Wallets;
+﻿using Quras.Core;
+using Quras.IO.Json;
+using Quras.SmartContract;
+using Quras.Wallets;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Pure.Network.RPC
+namespace Quras.Network.RPC
 {
     internal class RpcServerWithWallet : RpcServer
     {

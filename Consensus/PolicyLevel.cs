@@ -1,4 +1,4 @@
-﻿namespace Pure.Consensus
+﻿namespace Quras.Consensus
 {
     internal enum PolicyLevel : byte
     {

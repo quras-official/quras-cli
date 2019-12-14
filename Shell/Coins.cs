@@ -1,11 +1,11 @@
-using Pure.Core;
-using Pure.Network;
-using Pure.SmartContract;
-using Pure.Wallets;
+using Quras.Core;
+using Quras.Network;
+using Quras.SmartContract;
+using Quras.Wallets;
 using System;
 using System.Linq;
 
-namespace Pure.Shell
+namespace Quras.Shell
 {
 
     public class Coins

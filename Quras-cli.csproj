@@ -8,7 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C4F26CEC-DFC3-4CB3-BE49-360556C64949}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Pure_cli</RootNamespace>
+    <RootNamespace>Quras_cli</RootNamespace>
     <AssemblyName>Quras-cli</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -422,13 +422,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PureCore\PureCore.csproj">
+    <ProjectReference Include="..\QurasCore\QurasCore.csproj">
       <Project>{966213a9-e998-4f2a-94ec-52dc00fd1271}</Project>
-      <Name>PureCore</Name>
+      <Name>QurasCore</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PureVM\PureVM.csproj">
+    <ProjectReference Include="..\QurasVM\QurasVM.csproj">
       <Project>{5780e41b-f8b0-46c1-aa9d-3e19c1906ed9}</Project>
-      <Name>PureVM</Name>
+      <Name>QurasVM</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,16 +1,16 @@
-﻿using Pure.Consensus;
-using Pure.Core;
-using Pure.Implementations.Blockchains.LevelDB;
-using Pure.Implementations.Wallets.EntityFramework;
-using Pure.IO;
-using Pure.IO.Json;
-using Pure.Network;
-using Pure.Network.RPC;
-using Pure.Services;
-using Pure.SmartContract;
-using Pure.VM;
-using Pure.Wallets;
-using Pure.Core.Anonoymous;
+﻿using Quras.Consensus;
+using Quras.Core;
+using Quras.Implementations.Blockchains.LevelDB;
+using Quras.Implementations.Wallets.EntityFramework;
+using Quras.IO;
+using Quras.IO.Json;
+using Quras.Network;
+using Quras.Network.RPC;
+using Quras.Services;
+using Quras.SmartContract;
+using Quras.VM;
+using Quras.Wallets;
+using Quras.Core.Anonoymous;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,7 +19,7 @@ using System.Linq;
 using System.Security;
 using System.Threading.Tasks;
 
-namespace Pure.Shell
+namespace Quras.Shell
 {
     internal class MainService : ConsoleServiceBase
     {
@@ -548,7 +548,7 @@ namespace Pure.Shell
             UIntBase assetId;
             switch (args[1].ToLower())
             {
-                case "pure":
+                case "Quras":
                 case "ans":
                     assetId = Blockchain.GoverningToken.Hash;
                     break;
@@ -679,7 +679,7 @@ namespace Pure.Shell
                 UInt256 assetId;
                 switch (args[2].ToLower())
                 {
-                    case "pure":
+                    case "Quras":
                     case "ans":
                         assetId = Blockchain.GoverningToken.Hash;
                         break;

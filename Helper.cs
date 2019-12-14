@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Security;
 
-namespace Pure
+namespace Quras
 {
     internal static class Helper
     {

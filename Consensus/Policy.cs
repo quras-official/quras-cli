@@ -1,11 +1,11 @@
-﻿using Pure.Wallets;
+﻿using Quras.Wallets;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Pure.Consensus
+namespace Quras.Consensus
 {
     internal class Policy
     {

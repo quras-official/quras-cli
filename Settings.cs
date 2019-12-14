@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.Linq;
 
-namespace Pure
+namespace Quras
 {
     internal class Settings
     {

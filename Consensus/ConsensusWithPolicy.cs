@@ -1,11 +1,11 @@
-﻿using Pure.Core;
-using Pure.Network;
-using Pure.Wallets;
+﻿using Quras.Core;
+using Quras.Network;
+using Quras.Wallets;
 using System;
 using System.IO;
 using System.Linq;
 
-namespace Pure.Consensus
+namespace Quras.Consensus
 {
     internal class ConsensusWithPolicy : ConsensusService
     {

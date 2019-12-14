@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Pure.Implementations.Wallets.EntityFramework;
-using Pure.Shell;
-namespace Pure
+using Quras.Implementations.Wallets.EntityFramework;
+using Quras.Shell;
+namespace Quras
 {
     class Program
     {
