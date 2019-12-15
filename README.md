@@ -15,11 +15,11 @@ Run Quras-cli.exe.
 
 Then open the wallet.
 ```
-<i>open wallet [wallet_path]</i>
+open wallet [wallet_path]
 ```
 Run consensus.
 ```
-<i>start consensus</i>
+start consensus
 ```
 
 ## Configuration
