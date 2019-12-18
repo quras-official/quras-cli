@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Security;
 using System.Text;
 
-namespace Pure.Services
+namespace Quras.Services
 {
     public abstract class ConsoleServiceBase
     {
